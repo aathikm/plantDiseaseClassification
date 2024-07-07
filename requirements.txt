@@ -1,0 +1,13 @@
+pandas
+numpy
+matplotlib
+logging
+scikit-learn
+keras
+dataclasses
+ensure
+gdown
+tensorflow
+flask
+Flask-Cors
+python-box

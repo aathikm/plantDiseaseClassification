@@ -1,0 +1,4 @@
+[2024-07-06 20:12:36,662] 36 root - INFO - yaml file: config\config.yaml loaded successfully
+[2024-07-06 20:12:36,789] 36 root - INFO - yaml file: params.yaml loaded successfully
+[2024-07-06 20:12:36,790] 54 root - INFO - created directory at: artifacts
+[2024-07-06 20:12:36,790] 54 root - INFO - created directory at: artifacts/data_ingestion
