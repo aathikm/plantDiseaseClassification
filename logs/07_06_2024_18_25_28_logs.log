@@ -1,6 +1,0 @@
-[2024-07-06 18:25:30,249] 36 root - INFO - yaml file: config\config.yaml loaded successfully
-[2024-07-06 18:25:30,261] 36 root - INFO - yaml file: params.yaml loaded successfully
-[2024-07-06 18:25:30,261] 54 root - INFO - created directory at: artifacts
-[2024-07-06 18:25:30,262] 54 root - INFO - created directory at: artifacts/data_ingestion
-[2024-07-06 18:25:30,262] 56 root - INFO - Downloading data from https://drive.google.com/file/d/1lukwcCMW6SkDWfPM7QnKCnb2W4Gzkqe-/view?usp=sharing into file artifacts/data_ingestion/data.zip
-[2024-07-06 18:39:33,677] 62 root - INFO - Downloaded data from https://drive.google.com/file/d/1lukwcCMW6SkDWfPM7QnKCnb2W4Gzkqe-/view?usp=sharing into file artifacts/data_ingestion/data.zip

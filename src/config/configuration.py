@@ -1,11 +1,17 @@
 from constants import *
 import os
+import sys
 from utils.utils import read_yaml, create_directories,save_json
 from config.entity import (DataIngestionConfig,
                                                 PrepareBaseModelConfig,
                                                 TrainingConfig,
                                                 EvaluationConfig)
+current_dir = os.path.dirname(os.path.abspath(__file__))
+src_dir = os.path.join(current_dir,"..")
+sys.path.append(src_dir)
 
+from loggingInfo.loggingInfo import logging
+from exception.exception import customException
 
 class ConfigurationManager:
     def __init__(
@@ -54,7 +60,8 @@ class ConfigurationManager:
         training = self.config.training
         prepare_base_model = self.config.prepare_base_model
         params = self.params
-        training_data = os.path.join(self.config.data_ingestion.unzip_dir, "kidney-ct-scan-image")
+        training_data = os.path.join(self.config.data_ingestion.unzip_dir, "kaggle","working", "plantData")
+        logging.info("training_Data path", training_data)
         create_directories([
             Path(training.root_dir)
         ])
