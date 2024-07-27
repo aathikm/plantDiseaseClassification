@@ -1,0 +1,39 @@
+,Disease,Code
+0,Apple Apple scab,0
+1,Apple Black rot,1
+2,Apple Cedar apple rust,2
+3,Apple healthy,3
+4,Blueberry healthy,4
+5,Cherry (including sour) Powdery mildew,5
+6,Cherry (including sour) healthy,6
+7,Corn (maize) Cercospora leaf spot Gray leaf spot,7
+8,Corn (maize) Common rust ,8
+9,Corn (maize) Northern Leaf Blight,9
+10,Corn (maize) healthy,10
+11,Grape Black rot,11
+12,Grape Esca (Black Measles),12
+13,Grape Leaf blight (Isariopsis Leaf Spot),13
+14,Grape healthy,14
+15,Orange Haunglongbing (Citrus greening),15
+16,Peach Bacterial spot,16
+17,Peach healthy,17
+18,"Pepper, bell Bacterial spot",18
+19,"Pepper, bell healthy",19
+20,Potato Early blight,20
+21,Potato Late blight,21
+22,Potato healthy,22
+23,Raspberry healthy,23
+24,Soybean healthy,24
+25,Squash Powdery mildew,25
+26,Strawberry Leaf scorch,26
+27,Strawberry healthy,27
+28,Tomato Bacterial spot,28
+29,Tomato Early blight,29
+30,Tomato Late blight,30
+31,Tomato Leaf Mold,31
+32,Tomato Septoria leaf spot,32
+33,Tomato Spider mites Two-spotted spider mite,33
+34,Tomato Target Spot,34
+35,Tomato Tomato Yellow Leaf Curl Virus,35
+36,Tomato Tomato mosaic virus,36
+37,Tomato healthy,37

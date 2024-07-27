@@ -1,7 +1,0 @@
-[2024-07-08 23:03:48,762] 42 root - INFO - ######## <Trianing_Pipeline> started ###########
-[2024-07-08 23:03:48,766] 36 root - INFO - yaml file: config\config.yaml loaded successfully
-[2024-07-08 23:03:48,803] 36 root - INFO - yaml file: params.yaml loaded successfully
-[2024-07-08 23:03:48,803] 54 root - INFO - created directory at: artifacts
-[2024-07-08 23:03:48,804] 54 root - INFO - created directory at: artifacts/prepare_base_model
-[2024-07-08 23:03:48,928] 54 root - INFO - created directory at: artifacts\training
-[2024-07-08 23:03:48,928] 45 root - INFO - ######## <Trianing_Pipeline> completed ###########
