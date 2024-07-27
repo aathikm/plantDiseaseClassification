@@ -29,7 +29,7 @@ class TrainingPipeline:
             base_model_pipe = PrepareBaseModel(get_base_model_config, get_model_train_config)
             # model = base_model_pipe.get_base_model()
             base_model_pipe.train(
-                model = tf.keras.applications.MobileNetV2,
+                model = tf.keras.applications.InceptionV3,
                     classes=get_base_model_config.params_classes,
                     freeze_all=True,
                     freeze_till=None,

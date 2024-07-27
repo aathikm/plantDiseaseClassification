@@ -108,6 +108,8 @@ class PrepareBaseModel:
         
         logging.info(f"steps per epoch: {self.steps_per_epoch}")
         logging.info(f"updated base model path: {self.config1.updated_base_model_path}")
+        logging.info(f"The train label indices of each classes: {train_data_gen.class_indices}")
+        logging.info(f"The val label indices of each classes: {val_data_gen.class_indices}")
         
         # model = tf.keras.models.load_model(
         #     self.config1.updated_base_model_path
